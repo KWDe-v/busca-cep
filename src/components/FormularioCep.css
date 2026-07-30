@@ -1,0 +1,34 @@
+.form-cep {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.form-cep input {
+  flex: 1;
+  padding: 0.8rem 1rem;
+  border: 2px solid var(--cor-borda);
+  border-radius: 8px;
+  font-size: 1rem;
+  outline: none;
+  transition: border-color 0.2s ease;
+}
+
+.form-cep input:focus {
+  border-color: var(--cor-primaria);
+}
+
+.form-cep button {
+  background-color: var(--cor-primaria);
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 0 1.2rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: opacity 0.2s ease;
+}
+
+.form-cep button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}

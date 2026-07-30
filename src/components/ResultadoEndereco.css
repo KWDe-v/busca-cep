@@ -1,0 +1,24 @@
+.resultado-cep {
+  margin-top: 1.5rem;
+  border-top: 1px solid var(--cor-borda);
+  padding-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+
+.resultado-cep__linha {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.resultado-cep__rotulo {
+  color: var(--cor-suave);
+  font-weight: 600;
+}
+
+.resultado-cep__valor {
+  text-align: right;
+  font-weight: 500;
+}
