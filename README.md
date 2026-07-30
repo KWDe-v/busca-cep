@@ -1,9 +1,5 @@
 # 📍 Busca de CEP
 
-![Screenshot do projeto](./screenshot.png)
-
-> Substitua a imagem acima por um print da sua aplicação rodando.
-
 ## 📖 Descrição
 
 Um buscador de endereços por CEP feito em **React**, consumindo a **API pública ViaCEP** (gratuita e sem chave). Digite um CEP e veja rua, bairro, cidade e estado. Ótimo para praticar **consumo de API**, `fetch`, estados de carregamento e tratamento de erros.
@@ -32,10 +28,6 @@ npm run dev
 ```
 
 Depois abra o endereço mostrado no terminal (geralmente `http://localhost:5173`).
-
-## 🌐 Como acessar o projeto publicado
-
-> Adicione aqui o link após publicar na Vercel ou Netlify.
 
 ## 📁 Estrutura básica do projeto
 
