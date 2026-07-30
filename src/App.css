@@ -1,0 +1,27 @@
+.painel {
+  background-color: var(--cor-card);
+  padding: 2rem;
+  border-radius: 16px;
+  width: 100%;
+  max-width: 420px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+}
+
+.painel__titulo {
+  text-align: center;
+  font-size: 1.6rem;
+}
+
+.painel__subtitulo {
+  text-align: center;
+  color: var(--cor-suave);
+  font-size: 0.9rem;
+  margin: 0.3rem 0 1.5rem;
+}
+
+.painel__erro {
+  margin-top: 1rem;
+  text-align: center;
+  color: var(--cor-erro);
+  font-weight: 600;
+}
